@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+ }
+ body{
+    background-color: #495250;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background-image: url("https://images.unsplash.com/photo-1625225230517-7426c1be750c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+   }
+ .main{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    border: 5px solid black;
+    border-radius: 6px; 
+ }
+ .main input[type='text'] {
+    width: 88%;
+    position: relative;
+    height: 80px;
+    top: 5px;
+    text-align: right;
+    padding: 3px 6px;
+    outline: none;
+    font-size: 40px;
+    border: 5px solid black;
+    display: flex;
+    margin: auto;
+    border-radius: 6px;
+    color: black;
+ }
+ .grey{
+    margin: 2px 0px;
+    position: relative;
+    padding: 2px;
+    left: 13px;
+    top: 20px;
+    width:90px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: #495250;
+    color: white;
+    border-radius: 50%;
+   
+ }
+ .grey:hover{
+    background-color: rgb(18, 9, 119);
+    color: white;
+    border-radius: 20px;
+ } 
+ 
+.blue{
+    margin: 2px 0px;
+    position: relative;
+    padding: 2px;
+    left: 13px;
+    top: 20px;
+    width:90px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 6px;
+ }
+ .red{
+    margin: 2px 0px;
+    position: relative;
+    padding: 2px;
+    left: 13px;
+    top: 20px;
+    width:90px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+ }
+ h1{
+    margin-top: -38%;
+    color:white;
+    text-decoration: underline;
+ }
